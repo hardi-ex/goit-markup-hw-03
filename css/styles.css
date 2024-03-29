@@ -46,8 +46,9 @@ img {
 }
 
 .container {
-  max-width: 1128px;
+  width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
   /* border: 1px solid red; */
 }
 
@@ -74,6 +75,9 @@ img {
   padding: 24px 0;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .nav {
   display: flex;
   gap: 76px;
@@ -152,6 +156,7 @@ img {
 
 .heroimage {
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .heroimage .container {
@@ -160,6 +165,7 @@ img {
 }
 
 .heroimage-title {
+  max-width: 496px;
   width: 496px;
   margin-bottom: 48px;
 
@@ -199,6 +205,9 @@ img {
 
 /* #region Features 2*/
 
+.features {
+  padding: 120px 0;
+}
 .features-title {
 }
 
@@ -344,11 +353,10 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.container-footer {
-  width: 264px;
-}
 
 .footer-web {
+  display: inline-block;
+  margin-bottom: 16px
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -364,7 +372,7 @@ img {
 }
 
 .footer-text {
-  margin-top: 16px;
+  max-width: 264px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
