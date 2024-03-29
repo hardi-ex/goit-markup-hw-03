@@ -47,7 +47,7 @@ img {
 
 .container {
   width: 1158px;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
   margin: 0 auto;
   /* border: 1px solid red; */
 }
@@ -64,8 +64,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header {
@@ -103,7 +101,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
+.nav-list {
+  display: block;
+  padding: 24px 0;
+}
 .nav-list:hover,
 .nav-list:focus {
   color: #404bbf;
@@ -112,12 +113,6 @@ img {
 .list-item {
   display: flex;
   gap: 40px;
-}
-
-.nav-list {
-  padding: 24px 0;
-}
-.container-address {
 }
 
 .address-list {
