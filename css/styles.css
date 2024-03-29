@@ -58,14 +58,6 @@ img {
   padding: 60px 0;
 }
 
-.features {
-  padding-top: 120px;
-}
-
-.portfolio {
-  padding-bottom: 120px;
-}
-
 /* #region Header */
 
 .header .container {
@@ -214,6 +206,7 @@ img {
 .features-items {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 .features-items-list {
   width: 264px;
@@ -243,6 +236,9 @@ img {
 
 /* #region Team 3*/
 
+.team {
+  padding: 120px 0;
+}
 .team {
   background-color: #f4f4fd;
 }
@@ -293,7 +289,9 @@ img {
 /* #endregion Team 3*/
 
 /* #region Portfolio 4*/
-
+.portfolio {
+  padding-top: 120px;
+}
 .portfolio-title {
   margin-bottom: 72px;
   font-weight: 700;
@@ -356,7 +354,8 @@ img {
 
 .footer-web {
   display: inline-block;
-  margin-bottom: 16px
+  margin-bottom: 16px;
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
