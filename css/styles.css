@@ -64,7 +64,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header {
@@ -390,6 +391,7 @@ img {
 }
 
 .footer-text {
+  margin: 0;
   max-width: 264px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
