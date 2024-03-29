@@ -73,6 +73,7 @@ img {
 .nav {
   display: flex;
   gap: 76px;
+  align-items: center;
 
   font-weight: 500;
   font-size: 16px;
@@ -82,6 +83,7 @@ img {
 }
 
 .nav-web {
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -262,13 +264,21 @@ img {
   text-align: center;
 }
 .team-items {
+  width: calc((100% - 3 * 24px) / 4);
+
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
 
 .team-items-images {
   margin-bottom: 32px;
 }
+
+.container-title-text {
+  padding: 32px 0;
+}
 .team-items-title {
+  text-align: center;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -279,6 +289,7 @@ img {
 }
 
 .team-items-text {
+  text-align: center;
   font-weight: 400;
   font-size: 16px;
 
@@ -291,6 +302,7 @@ img {
 /* #region Portfolio 4*/
 .portfolio {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .portfolio-title {
   margin-bottom: 72px;
@@ -308,6 +320,7 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 48px;
+  column-gap: 24px;
 }
 
 .portfolio-items {
@@ -320,6 +333,12 @@ img {
 }
 .portfolio-img {
   margin-bottom: 32px;
+}
+.container-text-title {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .portfolio-items-title {
   margin-left: 16px;
